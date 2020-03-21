@@ -20,7 +20,7 @@ let city = [];
 
 
 const getData = (url, callback) => {
-    const request = new XMLHttpRequest();
+    const request = new XMLHttpsRequest();
     request.open('GET', url);
 
     request.addEventListener('readystatechange', () => {
